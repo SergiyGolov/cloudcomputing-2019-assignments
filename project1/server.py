@@ -151,7 +151,7 @@ def update_watch(sku):
         sql = 'update watches set ' +', '.join([f'{k}=%s' for k,v in update_params.items() if v is not None]) +' where sku=%s'
         try:
             cur.execute(sql, [v for v in update_params.values() if v is not None]+[sku])
-            print(cur.rowcount)
+
             if cur.rowcount == 0:
                     abort(404)
 
