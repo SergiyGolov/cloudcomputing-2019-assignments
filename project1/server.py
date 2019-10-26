@@ -133,16 +133,16 @@ def delete_watch(sku):
 def update_watch(sku):
     update_params = {}
 
-    update_params['sku'] = request.get_json().get('sku', None),
-    update_params['type'] = request.get_json().get('type', None),
-    update_params['status'] = request.get_json().get('status', None),
-    update_params['gender'] = request.get_json().get('gender', None),
-    update_params['year'] = request.get_json().get('year', None),
-    update_params['dial_material'] = request.get_json().get('dial_material', None),
-    update_params['dial_color'] = request.get_json().get('dial_color', None),
-    update_params['case_material'] = request.get_json().get('case_material', None),
-    update_params['case_form'] = request.get_json().get('case_form', None),
-    update_params['bracelet_material'] = request.get_json().get('bracelet_material', None),
+    update_params['sku'] = request.get_json().get('sku', None)
+    update_params['type'] = request.get_json().get('type', None)
+    update_params['status'] = request.get_json().get('status', None)
+    update_params['gender'] = request.get_json().get('gender', None)
+    update_params['year'] = request.get_json().get('year', None)
+    update_params['dial_material'] = request.get_json().get('dial_material', None)
+    update_params['dial_color'] = request.get_json().get('dial_color', None)
+    update_params['case_material'] = request.get_json().get('case_material', None)
+    update_params['case_form'] = request.get_json().get('case_form', None)
+    update_params['bracelet_material'] = request.get_json().get('bracelet_material', None)
     update_params['movement'] = request.get_json().get('movement', None)
 
     with con:
