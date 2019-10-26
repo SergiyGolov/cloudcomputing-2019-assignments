@@ -160,6 +160,12 @@ def update_watch(sku):
 
     return jsonify(success=True)
 
+@app.after_request
+def add_header(response):
+    response.cache_control.max_age = 3600
+    response.cache_control.public = True
+    response.add_etag()
+    return response
 
 if __name__ == '__main__':
     app.run(port=1080, debug=False, host='0.0.0.0')
