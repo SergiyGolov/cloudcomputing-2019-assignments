@@ -39,6 +39,7 @@ def get_watch_data(sku):
 
         response = cur.fetchone()
 
+        # If no watch found, return 404
         if response is None:
             abort(404)
 
@@ -75,6 +76,7 @@ def find_watch():
 
         response = cur.fetchall()
 
+        # If no watches found, return 404
         if response is None:
             abort(404)
 
@@ -84,7 +86,7 @@ def find_watch():
 @app.route(f'{api_info_v1_prefix}/watch/complete-sku/<prefix>')
 @auth.login_required
 def complete_sku(prefix):
-    prefix += '%'
+    prefix += '%' # add wildcard for sql query
     with con:
         cur = con.cursor(pymysql.cursors.DictCursor)
 
@@ -92,6 +94,7 @@ def complete_sku(prefix):
 
         response = cur.fetchall()
 
+        # If no sku corresponds to the prefix, return 404
         if response is None:
             abort(404)
 
@@ -106,6 +109,7 @@ def add_watch():
         sql = f'insert into watches ({", ".join([k for k in request.json.keys()])}) values ({", ".join(["%s" for v in request.json.values()])})'
         try:
             cur.execute(sql, [v for v in request.json.values()])
+        # Return 400 if e.g. an unexisting attribute has been specified, or if the sku already exists
         except pymysql.Error:
             abort(400)
 
@@ -120,8 +124,10 @@ def delete_watch(sku):
         try:
             cur.execute('delete from watches where sku=%s', sku)
 
+            # If no rows has been affected by the delete, it means that the specified sku didn't exist, return 404
             if cur.rowcount == 0:
                 abort(404)
+        # If something other went wrong, return 400
         except pymysql.Error:
             abort(400)
 
@@ -152,9 +158,11 @@ def update_watch(sku):
         try:
             cur.execute(sql, [v for v in update_params.values() if v is not None]+[sku])
 
+            # If no rows has been updated, it means that the specified sku doesn't exist, return 404
             if cur.rowcount == 0:
                     abort(404)
 
+        # If invalid input, return 400
         except pymysql.Error:
             abort(400)
 
