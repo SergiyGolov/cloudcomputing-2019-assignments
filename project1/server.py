@@ -23,11 +23,13 @@ con = pymysql.connect(db_host, db_user, db_pass, db_dbname)
 app = Flask(__name__)
 auth = HTTPBasicAuth()
 
+
 @auth.verify_password
 def verify_password(username, password):
     if username == http_user:
-        return check_password_hash(generate_password_hash(http_pass),password)
+        return check_password_hash(generate_password_hash(http_pass), password)
     return False
+
 
 @app.route(f'{api_info_v1_prefix}/watch/<sku>', methods=['GET'])
 @auth.login_required
@@ -58,6 +60,10 @@ def find_watch():
     find_params['gender'] = request.args.get('gender', None)
     find_params['year'] = request.args.get('year', None)
 
+    # allow finding by partial sku
+    if find_params['sku'] is not None:
+        find_params['sku'] += '%'
+
     with con:
         cur = con.cursor(pymysql.cursors.DictCursor)
 
@@ -66,18 +72,22 @@ def find_watch():
         first_where = True
 
         for k, v in find_params.items():
+            if k == 'sku':
+                equals = 'like'
+            else:
+                equals = '='
             if v is not None and first_where:
-                sql += f" where {k}=%s"
+                sql += f" where {k} {equals} %s"
                 first_where = False
             elif v is not None and not first_where:
-                sql += f" and {k}=%s"
+                sql += f" and {k} {equals} %s"
 
         cur.execute(sql, [v for v in find_params.values() if v is not None])
 
         response = cur.fetchall()
 
         # If no watches found, return 404
-        if response is None:
+        if len(response) == 0:
             abort(404)
 
     return jsonify(response)
@@ -86,7 +96,7 @@ def find_watch():
 @app.route(f'{api_info_v1_prefix}/watch/complete-sku/<prefix>')
 @auth.login_required
 def complete_sku(prefix):
-    prefix += '%' # add wildcard for sql query
+    prefix += '%'  # add wildcard for sql query
     with con:
         cur = con.cursor(pymysql.cursors.DictCursor)
 
@@ -95,7 +105,7 @@ def complete_sku(prefix):
         response = cur.fetchall()
 
         # If no sku corresponds to the prefix, return 404
-        if response is None:
+        if len(response) == 0:
             abort(404)
 
     return jsonify(response)
@@ -122,7 +132,7 @@ def delete_watch(sku):
     with con:
         cur = con.cursor(pymysql.cursors.DictCursor)
         try:
-            cur.execute('delete from watches where sku=%s', sku)
+            cur.execute('delete from watches where sku = %s', sku)
 
             # If no rows has been affected by the delete, it means that the specified sku didn't exist, return 404
             if cur.rowcount == 0:
@@ -151,16 +161,21 @@ def update_watch(sku):
     update_params['bracelet_material'] = request.get_json().get('bracelet_material', None)
     update_params['movement'] = request.get_json().get('movement', None)
 
+
+    # Workaround: otherwise, it will return a 404 error if the new sku is equal to the old sku (a 400 error is more clear than a 404 error in this case)
+    if update_params['sku'] is not None and update_params['sku'] == sku:
+        abort(400)
+
     with con:
         cur = con.cursor(pymysql.cursors.DictCursor)
-    
-        sql = 'update watches set ' +', '.join([f'{k}=%s' for k,v in update_params.items() if v is not None]) +' where sku=%s'
+
+        sql = 'update watches set ' + ', '.join([f'{k} = %s' for k, v in update_params.items() if v is not None]) + ' where sku = %s'
         try:
             cur.execute(sql, [v for v in update_params.values() if v is not None]+[sku])
 
             # If no rows has been updated, it means that the specified sku doesn't exist, return 404
             if cur.rowcount == 0:
-                    abort(404)
+                abort(404)
 
         # If invalid input, return 400
         except pymysql.Error:
@@ -168,12 +183,20 @@ def update_watch(sku):
 
     return jsonify(success=True)
 
+
 @app.after_request
 def add_header(response):
+    # Headers to allow GET data to be valid 1 hour
     response.cache_control.max_age = 3600
     response.cache_control.public = True
     response.add_etag()
+
+    # Headers for testing with swagger
+    response.headers.add('Access-Control-Allow-Origin', 'https://editor.swagger.io')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type, api_key, Authorization')
+    response.headers.add('Access-Control-Allow-Methods','GET, POST, DELETE, PUT, PATCH, OPTIONS')
     return response
+
 
 if __name__ == '__main__':
     app.run(port=1080, debug=False, host='0.0.0.0')
