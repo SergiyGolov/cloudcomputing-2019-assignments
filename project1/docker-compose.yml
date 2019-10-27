@@ -1,0 +1,35 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:5.7
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_USER=watches
+      - MYSQL_PASSWORD=watches
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=watches
+      - MYSQL_ROOT_HOST=127.0.0.1
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d
+    restart: always
+    network_mode: host
+
+  flask:
+    build: ./python_server
+    ports:
+      - 1080:1080
+    depends_on:
+      - mysql
+    environment:
+      - FLASK_APP=server.py
+      - DB_HOST=127.0.0.1
+      - DB_PORT=3306
+      - DB_DBNAME=watches
+      - DB_USER=watches
+      - DB_PASS=watches
+      - HTTP_USER=cloud
+      - HTTP_PASS=computing
+      - WAIT_HOSTS=mysql:3306
+    restart: always
+    network_mode: host
