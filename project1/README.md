@@ -1,3 +1,3 @@
 - Everything works
-- The first time `docker-compose up` is executed, you have to wait until the mysql db is initialized, before that the flask server can't connect to the mysql db, and it shows the following error: `pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")` but the flask container restarts automatically until the mysql db is initialized (It can take up to 30 seconds, and after all works as intended).
 - I've implemented the bonuses (index on db + http expiration headers)
+- A `FLASK_APP=server.py` has been added to the `run.sh` script
