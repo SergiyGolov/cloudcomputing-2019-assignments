@@ -1,9 +1,9 @@
 # Cloud computing, project 1, Sergiy Goloviatinski
 
 Everything works, the server respects the API specifications
-- use `run.sh` script in python_server directory to test the server on the local machine
-- use `build_container.sh` and then `run_container.sh` in python_server directory to test the server in a container
-- use `docker-compose up` in the project1 root directory to test the server and mysql containers together
+- use `run.sh` script in python_server folder to test the server on the local machine
+- use `build_container.sh` and then `run_container.sh` in python_server folder to test the server in a container
+- use `docker-compose up` in the project1 root folder to test the server and mysql containers together
 
 The first time that you use `docker-compose up`, you will get the following error from the flask server: 
 ```
@@ -11,7 +11,9 @@ pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'db' ([Er
 ```
 it's because the db isn't initialized yet, the flask server will automatically restart until the db is initialized (about 10-20 seconds), and then everything works as intended, the next time you will use `docker-compose up` the db will be already initialized and you won't get this error because I use a volume for the mysql container.
 
-I've implemented the bonuses (index in db on sku + http expiration headers)
+A solution to avoid those errors of the un-initialized db would be to wait explicitly for the mysql container to be ready to accept connections before starting the flask server, either from the python code or with a command from the flask container at startup.
+
+I've implemented the bonuses (index in db on sku and (type,status,gender,year) + http expiration headers)
 
 A `FLASK_APP=server.py` env var has been added to the scripts, needed for the `flask run` command
 
