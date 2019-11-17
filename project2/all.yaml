@@ -31,6 +31,28 @@ spec:
               value: 'computing'
           ports:
             - containerPort: 80
+        - name: cloudsql-proxy
+          image: gcr.io/cloudsql-docker/gce-proxy:1.14
+          command: ["/cloud_sql_proxy",
+                    "-instances=<INSTANCE_CONNECTION_NAME>=tcp:3306",
+                    # If running on a VPC, the Cloud SQL proxy can connect via Private IP. See:
+                    # https://cloud.google.com/sql/docs/mysql/private-ip for more info.
+                    # "-ip_address_types=PRIVATE",
+                    "-credential_file=cloud-computing-project2-51f0ebf2efe0.json"]
+          securityContext:
+            runAsUser: 2  # non-root user
+            allowPrivilegeEscalation: false
+          #volumeMounts:
+            #- name: cloudsql-instance-credentials
+              #mountPath: /secrets/cloudsql
+             # readOnly: true
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "250m"
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
 
 ---
 apiVersion: extensions/v1beta1

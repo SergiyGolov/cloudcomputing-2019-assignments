@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cloud-computing-project2",
+  "private_key_id": "51f0ebf2efe00795d5942ca44431af2d49c7a461",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCeagFU1XaoWWTq\nTakd8MJWiiKlHcXmdvLBushyKh8rgMZJKE4zCBoHpwbLH6OxN8ZB8dtPoSPQ/oqa\n4YFJPy+vC5QM0TW6C+G8+l4LH3BqWYUwOxCg+R19i38+wwieADOk8h6KJTbaUoEd\n8brzo5MhtB0lc6xIwpZAkKajR6pzjndTCzL6SmbfR0ZXL9BRhzHOt8dhs9Qx7gaN\nF8qsyvd7n5WTAdlKgxtU6x6ExXB90erpOVlFlfDOIUsijen5dT7/ZKp/devJmbv/\ncSIJGPQ5k5kfDFb158/CLYJEyGrhymrurSltThiPLrf2zIU+/C1RDwF4UT8ITlJz\nJTn+rAOzAgMBAAECggEACEyidDjYxhok3NejwBNQgysqhH8KUrgxoK+x97U4O9W7\nzbJkYm0OvA7mnrayI0M6SlMq+8GD+FuVlGazGMzMKT4QjBlb2LrtoTJ2wdtsTs4Q\n2cWGagCTKHQp/vZF2c1F52Ld8bvgY1DGPfTfqAsOVsoyardkM82qBIjvigdjqTkc\n1Ue0FjkqcqHmtbH6Iaw20UHMLSUYrb/G0wfRZ1D7l/r6aeAPBDOARtVuQDZ7TliM\nZO7HR9uXVZe1U/RYSC5RO1KxzwsvYEWT/abD063NmLny8Nf06OHNwB0Zq21lqtzP\ncX3HM7ZWk1xGFMp/rPl2zCAbKO9R73P2NDYOfEd/FQKBgQDfaJQfB3cWREDlXXaP\n0TijKX5/59u6SVVC68KSBH4tpjcf3D+I5Rt+drDBrKtDmD3K1k870iLzXmoX8IVf\n+qzzOtxE9awK9GWxnHVPK5wFZMszKpESOcswHoOi6Ozo1kz4DmunsmlBm++Rre7f\natgnRaJHrA/4fL8LPGblRCODNQKBgQC1hiSDYhYulY5ZjLQoVS+Ki/oOxxrOzSmE\nFSaDxB5+YdXiPwTBL2wgEVw+YDsEdgxou8dkRbdr2GTa3hqQl4KW4Dy1fEs1Ka6+\n8974hZwnHxPzq7gXFEMywFfC6Y2C/qretCy6PzJcLFVMTh3Fey5K5MXXIkxR7rG2\nhK0OSDwgRwKBgCyb1yey9+ZsToD9/pSM9EAwIuArTcaOqgWoybsaRo+a5trnwY/2\nH11LGdQyRChFF+GOlVeeh/gMXCbXkeouRaZzlFP4shel4UBru0jJrmetTp2y3DDF\ndXrwPNykodmEIO5PAtQDXd0J4/Y0wsO9s9dzogmpo668SfFWaD1TM7wZAoGARtk7\naRgghkATFjqHmnJdItstVxU5DlwfBxFmPemO6U7wNuTXyzriHcYI1cOjZUNZ5orb\n8PQQ+gO0oYQspCCudIrCxybjB7XkIV13ulITt2U22VU9fayH6cgOuOGFPQp+0HtM\nNckys60OAcE/d3NzhwGxgh094oCiVhWEod1pskMCgYEAzfPTfFY3v5abIUsU7WCv\n7qUjiqiqP8CTAbLyaryTz+peb1OrZaZJFkuTcuv/88xP8mzLpumZsjxPhFd8+aWp\nLvcsbBlkzs/ofqhiDiM3uaK5OaMDitX6ZbV3sK8ur50D7ViE/t5HArjYjnRRPAdT\nZ3vvG7sjCS4mJQ09PY7fLhY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sql-watches-info-service-accou@cloud-computing-project2.iam.gserviceaccount.com",
+  "client_id": "106080352187225492255",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sql-watches-info-service-accou%40cloud-computing-project2.iam.gserviceaccount.com"
+}
