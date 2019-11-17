@@ -1,23 +1,102 @@
-apiVersion: apps/v1
+apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: nginx-deployment
-  labels:
-    app: nginx
+  name: info-service-v1
 spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: nginx
+  replicas: 2
   template:
     metadata:
       labels:
-        app: nginx
+        app: info-service-v1
     spec:
       containers:
-      - name: nginx
-        image: nginx:1.7.9
-        ports:
-        - containerPort: 80
+        - name: info-service-v1
+          image: ludovicherbelin/info-service-v1:latest
+          env:
+            - name: FLASK_APP
+              value: 'server.py'
+            - name: DB_HOST
+              value: '35.195.138.219'
+            - name: DB_PORT
+              value: '3306'
+            - name: DB_DBNAME
+              value: 'watches'
+            - name: DB_USER
+              value: 'watches'
+            - name: DB_PASS
+              value: 'watches'
+            - name: HTTP_USER
+              value: 'cloud'
+            - name: HTTP_PASS
+              value: 'computing'
+          ports:
+            - containerPort: 80
 
-\n---\n
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: image-service-v1
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: image-service-v1
+    spec:
+      containers:
+        - name: image-service-v1
+          image: ludovicherbelin/image-service-v1:latest
+          env:
+            - name: FLASK_APP
+              value: 'server.py'
+          ports:
+            - containerPort: 80
+   
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: info-service-v1
+spec:
+  ports:
+  - port: 80
+    targetPort: 1080
+  selector:
+    app: info-service-v1
+  type: NodePort
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: image-service-v1
+spec:
+  ports:
+  - port: 80
+    targetPort: 1080
+  selector:
+    app: image-service-v1
+  type: NodePort
+
+---
+
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: cc-2019-project2
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /info/v1/*
+        backend:
+          serviceName: info-service-v1
+          servicePort: 80
+      - path: /image/v1/*
+        backend:
+          serviceName: image-service-v1
+          servicePort: 80
+
+---

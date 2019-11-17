@@ -9,4 +9,4 @@ docker tag image-service-v1:latest ludovicherbelin/image-service-v1:latest
 docker push ludovicherbelin/image-service-v1
 
 # Deploy using the yaml file
-kubectl create -f all.yaml create using a yaml config file
+kubectl create -f all.yaml
