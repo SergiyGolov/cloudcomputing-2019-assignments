@@ -16,7 +16,7 @@ spec:
             - name: FLASK_APP
               value: 'server.py'
             - name: DB_HOST
-              value: '35.195.138.219'
+              value: '127.0.0.1'
             - name: DB_PORT
               value: '3306'
             - name: DB_DBNAME
@@ -32,29 +32,23 @@ spec:
           ports:
             - containerPort: 80
         - name: cloudsql-proxy
-          image: gcr.io/cloudsql-docker/gce-proxy:1.14
+          image: gcr.io/cloudsql-docker/gce-proxy:1.11
           command: ["/cloud_sql_proxy",
-                    "-instances=<INSTANCE_CONNECTION_NAME>=tcp:3306",
-                    # If running on a VPC, the Cloud SQL proxy can connect via Private IP. See:
-                    # https://cloud.google.com/sql/docs/mysql/private-ip for more info.
-                    # "-ip_address_types=PRIVATE",
-                    "-credential_file=cloud-computing-project2-51f0ebf2efe0.json"]
+                    "-instances=cloud-computing-project2:europe-west1:cloud-computing-2019-db=tcp:3306",
+                    "-credential_file=/secrets/cc-sql-acc.json"]
           securityContext:
             runAsUser: 2  # non-root user
             allowPrivilegeEscalation: false
-          #volumeMounts:
-            #- name: cloudsql-instance-credentials
-              #mountPath: /secrets/cloudsql
-             # readOnly: true
-          resources:
-            requests:
-              memory: "64Mi"
-              cpu: "250m"
-            limits:
-              memory: "128Mi"
-              cpu: "500m"
-
----
+          volumeMounts:
+            - name: cloudsql-instance-credentials
+              mountPath: /secrets/
+              readOnly: true
+      volumes:
+      - name: cloudsql-instance-credentials
+        secret:
+          defaultMode: 420
+          secretName: cloudsql-instance-credentials
+--- 
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
@@ -115,10 +109,10 @@ spec:
       - path: /info/v1/*
         backend:
           serviceName: info-service-v1
-          servicePort: 80
+          servicePort: 1080
       - path: /image/v1/*
         backend:
           serviceName: image-service-v1
-          servicePort: 80
+          servicePort: 1080
 
 ---
