@@ -30,7 +30,7 @@ spec:
             - name: HTTP_PASS
               value: 'computing'
           ports:
-            - containerPort: 80
+            - containerPort: 1080
         - name: cloudsql-proxy
           image: gcr.io/cloudsql-docker/gce-proxy:1.11
           command: ["/cloud_sql_proxy",
@@ -67,7 +67,7 @@ spec:
             - name: FLASK_APP
               value: 'server.py'
           ports:
-            - containerPort: 80
+            - containerPort: 1080
    
 ---
 apiVersion: v1
@@ -78,6 +78,7 @@ spec:
   ports:
   - port: 80
     targetPort: 1080
+    protocol: TCP
   selector:
     app: info-service-v1
   type: NodePort
@@ -92,6 +93,7 @@ spec:
   ports:
   - port: 80
     targetPort: 1080
+    protocol: TCP
   selector:
     app: image-service-v1
   type: NodePort
@@ -109,10 +111,8 @@ spec:
       - path: /info/v1/*
         backend:
           serviceName: info-service-v1
-          servicePort: 1080
+          servicePort: 80
       - path: /image/v1/*
         backend:
           serviceName: image-service-v1
-          servicePort: 1080
-
----
+          servicePort: 80

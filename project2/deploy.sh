@@ -8,5 +8,9 @@ docker push ludovicherbelin/info-service-v1
 docker tag image-service-v1:latest ludovicherbelin/image-service-v1:latest
 docker push ludovicherbelin/image-service-v1
 
+# Creates the service account secret for the cluster to access the cloudsql instance 
+# using the given credentials file
+kubectl create secret generic cloudsql-instance-credentials --from-file=cc-sql-acc.json
+
 # Deploy using the yaml file
 kubectl create -f all.yaml

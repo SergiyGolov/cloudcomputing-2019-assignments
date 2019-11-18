@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from flask import Flask, abort, request, send_file
+from flask import Flask, jsonify, abort, request, send_file
 import urllib3
 from io import BytesIO
 
@@ -11,6 +11,13 @@ api_image_v1_prefix = '/image/v1'
 http = urllib3.PoolManager()
 app = Flask(__name__)
 
+@app.route(f'{api_image_v1_prefix}/', methods=['GET'])
+def home():
+    return jsonify("Health check hello.")
+
+@app.route(f'/', methods=['GET'])
+def home2():
+    return jsonify("Health check hello.")
 
 @app.route(f'{api_image_v1_prefix}/watch/<sku>', methods=['GET'])
 def get_image(sku):
