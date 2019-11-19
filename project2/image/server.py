@@ -15,9 +15,6 @@ app = Flask(__name__)
 def home():
     return jsonify("Health check hello.")
 
-@app.route(f'/', methods=['GET'])
-def home2():
-    return jsonify("Health check hello.")
 
 @app.route(f'{api_image_v1_prefix}/watch/<sku>', methods=['GET'])
 def get_image(sku):

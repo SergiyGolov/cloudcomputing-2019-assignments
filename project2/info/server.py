@@ -34,9 +34,6 @@ def verify_password(username, password):
 def home():
     return jsonify("Health check hello.")
 
-@app.route('/', methods=['GET'])
-def home2():
-    return jsonify("Health check hello.")
 
 @app.route(f'{api_info_v1_prefix}/watch/<sku>', methods=['GET'])
 @auth.login_required
