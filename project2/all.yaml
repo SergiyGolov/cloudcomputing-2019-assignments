@@ -44,7 +44,7 @@ spec:
               path: /info/v1/
               port: 1080
             initialDelaySeconds: 5
-            periodSeconds: 5
+            periodSeconds: 60
             successThreshold: 1
         - name: cloudsql-proxy
           image: gcr.io/cloudsql-docker/gce-proxy:1.11
@@ -96,7 +96,7 @@ spec:
               path: /image/v1/
               port: 1080
             initialDelaySeconds: 5
-            periodSeconds: 5
+            periodSeconds: 60
             successThreshold: 1
 
 ---
