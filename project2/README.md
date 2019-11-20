@@ -26,6 +26,11 @@ You can use the following URLs to check the services :
     - This path will show a very cool TAG HEUER watch image
 
 
+Or using the commands : 
+- `curl -X GET "http://35.244.196.84/info/v1/watch/complete-sku/A" -H "accept: 'application/json" -H "Authorization: Basic Y2xvdWQ6Y29tcHV0aW5n"`
+- `curl -X GET "http://35.244.196.84/image/v1/watch/CAC1111.BA0850" -H "Authorization: Basic Y2xvdWQ6Y29tcHV0aW5n"`
+
+
 ## Miscellaneous informations
 
 ### Google Cloud Kubernetes Cluster
