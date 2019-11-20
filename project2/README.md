@@ -27,7 +27,7 @@ You can use the following URLs to check the services :
 
 
 Or using the commands : 
-- **Info service ** : `curl -X GET "http://35.244.196.84/info/v1/watch/complete-sku/A" -H "accept: 'application/json" -H "Authorization: Basic Y2xvdWQ6Y29tcHV0aW5n"`
+- **Info service** : `curl -X GET "http://35.244.196.84/info/v1/watch/complete-sku/A" -H "accept: 'application/json" -H "Authorization: Basic Y2xvdWQ6Y29tcHV0aW5n"`
 - **Image service** : `curl -X GET "http://35.244.196.84/image/v1/watch/CAC1111.BA0850" --output watch.png` (will output the image to the 'watch.png' file)
 
 
