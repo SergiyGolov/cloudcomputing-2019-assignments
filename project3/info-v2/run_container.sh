@@ -8,4 +8,4 @@ docker run -d -p 1080:1080 --network=host \
 -e "DB_DBNAME=watches" \
 -e "DB_USER=watches" \
 -e "DB_PASS=watches" \
-info-service-v1
+info-service-v2
