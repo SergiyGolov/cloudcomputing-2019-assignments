@@ -1,0 +1,979 @@
+{
+    "watches": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_5_AUTO"
+                    },
+                    "sku": {
+                        "S": "WN2112.BA0359"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2003"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "PINK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_3_AUTO"
+                    },
+                    "sku": {
+                        "S": "WN2310.BA0333"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2002"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "PINK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_3_AUTO"
+                    },
+                    "sku": {
+                        "S": "WN2310.BA0360"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2003"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_3_AUTO"
+                    },
+                    "sku": {
+                        "S": "WN2311.BA0333"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2002"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_3_AUTO"
+                    },
+                    "sku": {
+                        "S": "WN2311.BA0360"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2003"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_3_AUTO"
+                    },
+                    "sku": {
+                        "S": "WN2312.BA0360"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2003"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "GOLD"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "GOLD"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_7_CHRM"
+                    },
+                    "sku": {
+                        "S": "WN5140.BG0351"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2002"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "GOLD"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "GOLD"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "GOLD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_7_CHRM"
+                    },
+                    "sku": {
+                        "S": "WN5141.BG0351"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2002"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1310.BA0750"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1310.FC8125"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1311.BA0750"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1311.FC8125"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1311.FC8126"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1311.FC8127"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1312.BA0750"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1312.FC8125"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1313.BA0751"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1314.BA0751"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1314.FC8125"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1314.FC8126"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1314.FC8127"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2004"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1314.FC8128"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1315.BA0751"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1315.FC8125"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WP1315.FC8126"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        }
+    ]
+}

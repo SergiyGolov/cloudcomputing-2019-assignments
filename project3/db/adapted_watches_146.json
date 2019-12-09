@@ -1,0 +1,979 @@
+{
+    "watches": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1310.BA0708"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1310.FC6122"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1310.FC6123"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1310.FC6124"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "RUBBER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1310.FT6001"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1311.BA0708"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1311.FC6122"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "RUBBER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1311.FT6001"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1312.BA0709"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1312.FC6122"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "RUBBER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1312.FT6001"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1313.BA0709"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1313.FC6123"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "RUBBER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1313.FT6001"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1314.BA0709"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1314.FC6122"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1314.FC6123"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1314.FC6124"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1314.FC8102"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1998"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "RUBBER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1314.FT6001"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1315.BA0710"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1315.FC6122"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1315.FC6123"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1315.FC6124"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WL1315.FC8102"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1998"
+                    }
+                }
+            }
+        }
+    ]
+}

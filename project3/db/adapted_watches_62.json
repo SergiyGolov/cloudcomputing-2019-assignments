@@ -1,0 +1,979 @@
+{
+    "watches": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF111Q.BA0800"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2007"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF111R.BA0810"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2007"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF111S.BA0800"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2008"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF111T.BA0806"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2009"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF111Z.BA0801"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2007"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "PLATED"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1120.BB0807"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2005"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "PLATED"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1123.BB0807"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2005"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "PLATED"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1124.BB0807"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2006"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1310.BA0817"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2007"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1311.BA0817"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2007"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1312.BA0817"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2007"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1313.BA0819"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2007"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1314.BA0817"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2011"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1315.BA0819"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2011"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF131AG.BA0817"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2014"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "PLATED"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1320.BB0820"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2008"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "PLATED"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1321.BB0820"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2013"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "PLATED"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1350.BB0820"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2007"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1410.BA0812"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2005"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1410.BA0823"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2009"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1412.BA0812"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2005"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1412.BA0823"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2009"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1414.BA0812"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2005"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1414.BA0823"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2009"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "MOTHER OF PEARL"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WAF1415.BA0813"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2005"
+                    }
+                }
+            }
+        }
+    ]
+}

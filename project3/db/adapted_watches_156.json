@@ -1,0 +1,979 @@
+{
+    "watches": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1113.FC6160"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2001"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1114.BA0551"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1114.FC6158"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2001"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1114.FC6159"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1115.BA0551"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1119.BA0551"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT111P.BA0551"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2002"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT111R.BA0551"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2002"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1150.BA0550"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1150.BD0552"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1151.BA0550"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1151.BD0552"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1154.BD0552"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2002"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1210.BA0553"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1211.BA0553"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1212.BA0553"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1213.BA0554"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1214.BA0554"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT121L.BA0554"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2001"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT121S.BA0553"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2003"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1250.BA0553"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1250.BA0554"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "WHITE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1250.BD0555"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1251.BA0553"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WT1251.BD0555"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2000"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,979 @@
+{
+    "watches": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1352.FC6044"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1996"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1352.FC6050"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2002"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1352.FC6052"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2001"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1352.FC6057"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1996"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.BC0603"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.BC0604"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.BC0669"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.BC0673"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.BC0674"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.BC0680"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.BC0697"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.BC0700"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1996"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.BD0680"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.FC6032"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1997"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.FC6038"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "2002"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.FC6041"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.FC6044"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.FC6052"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1996"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.FC6054"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.FC6057"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER ALLIGATOR"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL & GOLD"
+                    },
+                    "dial_color": {
+                        "S": "BEIGE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "WH1353.FC6135"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1998"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_3_AUTO"
+                    },
+                    "sku": {
+                        "S": "WH2311.BA0677"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_3_AUTO"
+                    },
+                    "sku": {
+                        "S": "WH2311.BC0664"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_3_AUTO"
+                    },
+                    "sku": {
+                        "S": "WH2311.BC0666"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "woman"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_3_AUTO"
+                    },
+                    "sku": {
+                        "S": "WH2311.BC0667"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "watch"
+                    },
+                    "year": {
+                        "N": "1995"
+                    }
+                }
+            }
+        }
+    ]
+}

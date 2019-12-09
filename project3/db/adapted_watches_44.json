@@ -1,0 +1,979 @@
+{
+    "watches": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201AH.BA0725"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2013"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "RUBBER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201AH.FT6014"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2013"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201AJ.BA0715"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_1887_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201AJ.BA0723"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "Round"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 16"
+                    },
+                    "sku": {
+                        "S": "CV201AJ.BA0727"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "Round"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 16"
+                    },
+                    "sku": {
+                        "S": "CV201AJ.FC6357"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201AK.BA0715"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_1887_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201AK.BA0723"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "Round"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 16"
+                    },
+                    "sku": {
+                        "S": "CV201AK.BA0727"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "RUBBER"
+                    },
+                    "case_form": {
+                        "S": "Round"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 16"
+                    },
+                    "sku": {
+                        "S": "CV201AK.FT6040"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_1887_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201AL.BA0723"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_1887_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201AL.FC6357"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_1887_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201AM.BA0723"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "RUBBER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_1887_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201AM.FT6040"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201AN.FC6384"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2016"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "LEATHER"
+                    },
+                    "case_form": {
+                        "S": "Round"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201AP.FC6429"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2018"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "Round"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201AR.BA0715"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2018"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201C.BA0786"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2007"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "RUBBER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201C.FT6007"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2007"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BURGUNDY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201D.BA0786"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2008"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201E.BA0786"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2007"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201E.BA0794"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2008"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREEN"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201F.BA0794"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2008"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "RUBBER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201G.FT6007"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2008"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "RUBBER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CV201H.FT6007"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2008"
+                    }
+                }
+            }
+        }
+    ]
+}

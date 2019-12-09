@@ -1,0 +1,979 @@
+{
+    "watches": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CAY2110.BA0925"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "Octogonal"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 16"
+                    },
+                    "sku": {
+                        "S": "CAY2110.BA0927"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "RUBBER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CAY2110.FT8022"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2014"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CAY2111.BA0925"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2014"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "Octogonal"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 16"
+                    },
+                    "sku": {
+                        "S": "CAY2111.BA0927"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CAY2112.BA0925"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "Octogonal"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 16"
+                    },
+                    "sku": {
+                        "S": "CAY2112.BA0927"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CAY211A.BA0925"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "Octogonal"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 16 Day-Date"
+                    },
+                    "sku": {
+                        "S": "CAY211A.BA0927"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CAY211A.BA0927-AM"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2017"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "NYLON"
+                    },
+                    "case_form": {
+                        "S": "Octogonal"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 16"
+                    },
+                    "sku": {
+                        "S": "CAY211A.FC6361"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "NYLON"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CAY211A.FC8187"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CAY211B.BA0925"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "Octogonal"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 16"
+                    },
+                    "sku": {
+                        "S": "CAY211B.BA0927"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CAY211D.BA0925"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLUE"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_16_AUTO"
+                    },
+                    "sku": {
+                        "S": "CAY211J.BA0927"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2016"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_45_AUTO"
+                    },
+                    "sku": {
+                        "S": "CAY211Y.BA0825"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2014"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "Octogonal"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 45"
+                    },
+                    "sku": {
+                        "S": "CAY211Y.BA0926"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_45_AUTO"
+                    },
+                    "sku": {
+                        "S": "CAY211Z.BA0825"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2014"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "Octogonal"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 45"
+                    },
+                    "sku": {
+                        "S": "CAY211Z.BA0926"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "RUBBER"
+                    },
+                    "case_form": {
+                        "S": "ROUND"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "CALIBRE_45_AUTO"
+                    },
+                    "sku": {
+                        "S": "CAY211Z.FT8022"
+                    },
+                    "status": {
+                        "S": "old"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2014"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "PLATED"
+                    },
+                    "case_form": {
+                        "S": "Octogonal"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 16"
+                    },
+                    "sku": {
+                        "S": "CAY2121.BB0923"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2016"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "NYLON"
+                    },
+                    "case_form": {
+                        "S": "Octogonal"
+                    },
+                    "case_material": {
+                        "S": "TITANIUM"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 16"
+                    },
+                    "sku": {
+                        "S": "CAY218A.FC6361"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "NYLON"
+                    },
+                    "case_form": {
+                        "S": "Octogonal"
+                    },
+                    "case_material": {
+                        "S": "TITANIUM"
+                    },
+                    "dial_color": {
+                        "S": "GREY"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "Calibre 16"
+                    },
+                    "sku": {
+                        "S": "CAY218B.FC6370"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2015"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "bracelet_material": {
+                        "S": "STEEL"
+                    },
+                    "case_form": {
+                        "S": "Round"
+                    },
+                    "case_material": {
+                        "S": "STEEL"
+                    },
+                    "dial_color": {
+                        "S": "BLACK"
+                    },
+                    "dial_material": {
+                        "S": "STANDARD"
+                    },
+                    "gender": {
+                        "S": "man"
+                    },
+                    "movement": {
+                        "S": "MVT_QUARTZ"
+                    },
+                    "sku": {
+                        "S": "CAZ1010.BA0842"
+                    },
+                    "status": {
+                        "S": "current"
+                    },
+                    "type": {
+                        "S": "chrono"
+                    },
+                    "year": {
+                        "N": "2016"
+                    }
+                }
+            }
+        }
+    ]
+}

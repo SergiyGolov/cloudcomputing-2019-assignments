@@ -1,0 +1,13 @@
+{
+    "TableName": "watches",
+    "KeySchema": [
+        { "AttributeName": "sku", "KeyType": "HASH" }
+    ],
+    "AttributeDefinitions": [
+        { "AttributeName": "sku", "AttributeType": "S" }
+    ],
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 5,
+        "WriteCapacityUnits": 5
+    }
+}

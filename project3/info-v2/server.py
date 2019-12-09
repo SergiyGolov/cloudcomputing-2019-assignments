@@ -64,24 +64,6 @@ def add_watch():
     return jsonify(success=True)
 
 
-@app.route(f'{api_info_v1_prefix}/watch/<sku>', methods=['DELETE'])
-@auth.login_required
-def delete_watch(sku):
-    with con:
-        cur = con.cursor(pymysql.cursors.DictCursor)
-        try:
-            cur.execute('delete from watches where sku = %s', sku)
-
-            # If no rows has been affected by the delete, it means that the specified sku didn't exist, return 404
-            if cur.rowcount == 0:
-                abort(404)
-        # If something other went wrong, return 400
-        except pymysql.Error:
-            abort(400)
-
-    return jsonify(success=True)
-
-
 @app.after_request
 def add_header(response):
     # Headers to allow GET data to be valid 1 hour
