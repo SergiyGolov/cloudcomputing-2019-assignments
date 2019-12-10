@@ -27,6 +27,10 @@ def verify_password(username, password):
         return check_password_hash(generate_password_hash(http_pass), password)
     return False
 
+@app.route(f'/', methods=['GET'])
+def home():
+    return jsonify("Health check hello.")
+
 
 @app.route(f'{api_info_v2_prefix}/watch/<sku>', methods=['GET'])
 @auth.login_required
