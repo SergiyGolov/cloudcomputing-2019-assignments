@@ -1,20 +1,24 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from flask import Flask, abort, jsonify, request
-from flask_httpauth import HTTPBasicAuth
-from werkzeug.security import generate_password_hash, check_password_hash
-import os
-import boto3
+try:
+    from flask import Flask, abort, jsonify, request
+    from flask_httpauth import HTTPBasicAuth
+    from werkzeug.security import generate_password_hash, check_password_hash
+    import os
+    import boto3
 
-http_user = os.environ['HTTP_USER']
-http_pass = os.environ['HTTP_PASS']
+    http_user = os.environ['HTTP_USER']
+    http_pass = os.environ['HTTP_PASS']
+    #http_user = 'cloud'
+    #http_pass = 'computing'
 
-api_info_v2_prefix = '/info/v2'
+    api_info_v2_prefix = '/info/v2'
 
-app = Flask(__name__)
-auth = HTTPBasicAuth()
-
+    app = Flask(__name__)
+    auth = HTTPBasicAuth()
+except Exception as e:
+    print("Failure with {}".format(e))
 
 def get_connection():
     # works if aws configure in aws cli has been used
