@@ -5,6 +5,7 @@
         "project_name": "info-v2",
         "runtime": "python3.7",
         "s3_bucket": "zappa-blajsluejaqwec363f",
+        "apigateway_enabled":true,
         "environment_variables": {
             "HTTP_USER": "cloud",
             "HTTP_PASS": "computing"

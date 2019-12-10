@@ -1,0 +1,22 @@
+{
+    "Functions": [
+        {
+            "FunctionName": "info-v2-dev",
+            "FunctionArn": "arn:aws:lambda:eu-west-3:234216717975:function:info-v2-dev",
+            "Runtime": "python3.7",
+            "Role": "arn:aws:iam::234216717975:role/info-v2-dev-ZappaLambdaExecutionRole",
+            "Handler": "handler.lambda_handler",
+            "CodeSize": 9296681,
+            "Description": "Zappa Deployment",
+            "Timeout": 30,
+            "MemorySize": 512,
+            "LastModified": "2019-12-10T15:07:53.164+0000",
+            "CodeSha256": "wsNe8VtLdIo9x8NE3ZMVmZt2NhPMAOza/Nn4T17LA8Y=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "018fd63a-f21a-4986-95ba-c755b4539b74"
+        }
+    ]
+}

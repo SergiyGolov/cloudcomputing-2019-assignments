@@ -1,0 +1,26 @@
+{
+    "items": [
+        {
+            "id": "ige8ha",
+            "parentId": "ty3usg",
+            "pathPart": "{sku}",
+            "path": "/watch/{sku}",
+            "resourceMethods": {
+                "GET": {}
+            }
+        },
+        {
+            "id": "ty3usg",
+            "parentId": "z7xdpbnaqg",
+            "pathPart": "watch",
+            "path": "/watch",
+            "resourceMethods": {
+                "POST": {}
+            }
+        },
+        {
+            "id": "z7xdpbnaqg",
+            "path": "/"
+        }
+    ]
+}
