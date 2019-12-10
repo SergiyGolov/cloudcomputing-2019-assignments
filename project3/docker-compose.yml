@@ -13,7 +13,7 @@ services:
     ports:
       - 33006:3306
     
-  info-service-v1:
+  info-service-v2:
     build: ./python_server
     ports:
       - 1080:1080
