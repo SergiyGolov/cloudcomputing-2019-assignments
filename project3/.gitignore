@@ -22,6 +22,7 @@ build/
 develop-eggs/
 dist/
 venv/
+info-v2/venv/
 downloads/
 eggs/
 .eggs/
