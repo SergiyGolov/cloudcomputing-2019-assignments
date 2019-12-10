@@ -25,7 +25,7 @@ if __name__ == '__main__':
 
             new_json['watches'].append(d)
 
-        lines = [
+        lines = ['#!/usr/bin/env bash\n',
             'aws dynamodb create-table --cli-input-json file://../db/create-table-watches.json --region eu-west-3\n']
 
         batch_size = int(len(new_json['watches'])/25)+1

@@ -36,8 +36,8 @@ def home():
     return jsonify("Health check hello.")
 
 
+#@auth.login_required
 @app.route(f'{api_info_v2_prefix}/watch/<sku>', methods=['GET'])
-@auth.login_required
 def get_watch_data(sku):
     connection = get_connection()
 
@@ -54,8 +54,8 @@ def get_watch_data(sku):
         return jsonify(item)
 
 
+#@auth.login_required
 @app.route(f'{api_info_v2_prefix}/watch', methods=['POST'])
-@auth.login_required
 def add_watch():
 
     connection = get_connection()

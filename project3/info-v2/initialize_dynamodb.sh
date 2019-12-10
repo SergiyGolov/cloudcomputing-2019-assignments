@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 aws dynamodb create-table --cli-input-json file://../db/create-table-watches.json --region eu-west-3
 aws dynamodb batch-write-item --request-items file://../db/adapted_watches_0.json
 aws dynamodb batch-write-item --request-items file://../db/adapted_watches_1.json
