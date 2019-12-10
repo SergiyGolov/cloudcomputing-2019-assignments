@@ -1,0 +1,9 @@
+{
+    "dev": {
+        "app_function": "server.app",
+        "profile_name": null,
+        "project_name": "info-v2",
+        "runtime": "python3.7",
+        "s3_bucket": "zappa-b7uec363f"
+    }
+}
