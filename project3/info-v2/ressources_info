@@ -1,8 +1,8 @@
 {
     "items": [
         {
-            "id": "ige8ha",
-            "parentId": "ty3usg",
+            "id": "kxajpg",
+            "parentId": "tqs216",
             "pathPart": "{sku}",
             "path": "/watch/{sku}",
             "resourceMethods": {
@@ -10,17 +10,17 @@
             }
         },
         {
-            "id": "ty3usg",
-            "parentId": "z7xdpbnaqg",
+            "id": "s746ulkq7g",
+            "path": "/"
+        },
+        {
+            "id": "tqs216",
+            "parentId": "s746ulkq7g",
             "pathPart": "watch",
             "path": "/watch",
             "resourceMethods": {
                 "POST": {}
             }
-        },
-        {
-            "id": "z7xdpbnaqg",
-            "path": "/"
         }
     ]
 }
