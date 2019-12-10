@@ -10,8 +10,6 @@ try:
 
     http_user = os.environ['HTTP_USER']
     http_pass = os.environ['HTTP_PASS']
-    #http_user = 'cloud'
-    #http_pass = 'computing'
 
     api_info_v2_prefix = '/info/v2'
 
@@ -49,9 +47,13 @@ def get_watch_data(sku):
         print(e.response['Error']['Message'])
         abort(404)
     else:
-        item = response['Item']
-        item['year'] = int(item['year'])
-        return jsonify(item)
+        try:
+            item = response['Item']
+            item['year'] = int(item['year'])
+        except KeyError:
+            abort(404)
+        else:
+            return jsonify(item)
 
 
 #@auth.login_required
