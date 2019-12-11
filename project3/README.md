@@ -41,7 +41,10 @@ The script `./update_lambdas.sh` is provided and functional to use once the lamb
 You can either test it using the endpoint in your browser, e.g. for the GET method :
 https://2w8ug39859.execute-api.eu-west-3.amazonaws.com/dev/info/v2/watch/CAC1111.BT0705
 
-Or using a curl command, e.g. for the POST method : `curl -X POST "https://2w8ug39859.execute-api.eu-west-3.amazonaws.com/dev/info/v2/watch" -H "accept: */*" -H "Content-Type: application/json" -d "{\"sku\":\"a\",\"type\":\"watchOSS2\",\"status\":\"old\",\"gender\":\"man\",\"year\":0,\"dial_material\":\"string\",\"dial_color\":\"string\",\"case_matsserial\":\"string\",\"case_form\":\"string\"}"`
+Or using a curl command, e.g. for the POST method :
+```
+curl -X POST "https://2w8ug39859.execute-api.eu-west-3.amazonaws.com/dev/info/v2/watch" -H "accept: */*" -H "Content-Type: application/json" -d "{\"sku\":\"a\",\"type\":\"watchOSS2\",\"status\":\"old\",\"gender\":\"man\",\"year\":0,\"dial_material\":\"string\",\"dial_color\":\"string\",\"case_matsserial\":\"string\",\"case_form\":\"string\"}"
+```
 
 The first should return this json:
 ```json
