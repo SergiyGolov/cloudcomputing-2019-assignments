@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# This script is used to adapt the provided watches.json to aws format + splitting it with smaller json files containing 25 items each (maximum allowed with batch-write-item command) + generate .sh calling all batch-write-item commands with all the small json files
+
 import json
 
 if __name__ == '__main__':

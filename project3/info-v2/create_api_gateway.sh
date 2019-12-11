@@ -7,6 +7,12 @@ aws apigateway create-deployment --region eu-west-3 \
     --rest-api-id `python3 extract_api_gateway_id.py` \
     --stage-name test
 
+aws lambda add-permission \
+    --function-name info-v2-dev \
+    --action lambda:InvokeFunction \
+    --statement-id lambda-invoke \
+    --principal apigateway.amazonaws.com
+
 aws apigateway get-resources --rest-api-id `python3 extract_api_gateway_id.py` > ressources_info
 
 aws apigateway put-integration \
