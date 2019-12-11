@@ -1,22 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-try:
-    from flask import Flask, abort, jsonify, request
-    from flask_httpauth import HTTPBasicAuth
-    from werkzeug.security import generate_password_hash, check_password_hash
-    import os
-    import boto3
+from flask import Flask, abort, jsonify, request
+from flask_httpauth import HTTPBasicAuth
+from botocore.exceptions import ClientError
+from werkzeug.security import generate_password_hash, check_password_hash
+import os
+import boto3
 
-    http_user = os.environ['HTTP_USER']
-    http_pass = os.environ['HTTP_PASS']
+http_user = os.environ['HTTP_USER']
+http_pass = os.environ['HTTP_PASS']
 
-    api_info_v2_prefix = '/info/v2'
+api_info_v2_prefix = '/info/v2'
 
-    app = Flask(__name__)
-    auth = HTTPBasicAuth()
-except Exception as e:
-    print("Failure with {}".format(e))
+app = Flask(__name__)
+auth = HTTPBasicAuth()
 
 def get_connection():
     # works if aws configure in aws cli has been used
@@ -68,7 +66,7 @@ def add_watch():
         response = table.put_item(Item=request.json)
     except ClientError as e:
         print(e.response['Error']['Message'])
-        abort(404)
+        abort(400)
     else:
         return jsonify(success=True)
 
