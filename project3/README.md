@@ -7,7 +7,7 @@ Herbelin Ludovic
 
 ## State of the project
 
-The project was almost completed, up until the automated API gateway deployment. The scripts to create the lambdas are functional but the one for the API gateway creates it but cannot bind the lambdas functions to it.
+The project was almost completed, up until the automated API gateway deployment. The scripts to create the lambdas are functional but the one for the API gateway creates it but cannot bind the lambdas functions to it. This can be done very easily on the AWS GUI, as the lambdas function are correctly suggested when we bind it manually but we could not do it with the CLI. 
 
 We created some python scripts to extract some information we needed to provide to the aws CLI commands but we could not find the correct structure of the uri for the `aws apigateway put-integration` command.
 
