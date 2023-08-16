@@ -1,0 +1,1 @@
+Each folder contains a pdf explaining the assignment, and a README which explains how to run the code.
